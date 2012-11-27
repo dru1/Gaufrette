@@ -50,7 +50,11 @@ class File
         $this->name = $key;
         $this->filesystem = $filesystem;
     }
-
+    
+    public function getFilesystem() {
+        return $this->filesystem;
+    }
+    
     /**
      * Returns the key
      *

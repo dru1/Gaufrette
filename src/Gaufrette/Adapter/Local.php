@@ -178,7 +178,7 @@ class Local implements Adapter,
      *                              directory
      * @throws RuntimeException If directory does not exists and cannot be created
      */
-    protected function computePath($key)
+    public function computePath($key)
     {
         $this->ensureDirectoryExists($this->directory, $this->create);
 
